@@ -1,224 +1,276 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #E0AE3E;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2rem 1rem;
+  background-color: #e0ae3e;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem 1rem;
 }
 
 /* profile header */
 .pc {
-    background-color: white;
-    border-radius: 1rem;
-    max-width: 1300px;
-    padding: 1rem;
-    margin: auto;
+  background-color: white;
+  border-radius: 1rem;
+  max-width: 1300px;
+  padding: 1rem;
+  margin: auto;
 }
 
 .ph {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 hr {
-    margin: 1rem 0;
-    height: 2px;
-    background-color: #94A3B8;
-    opacity: .6;
+  margin: 1rem 0;
+  height: 2px;
+  background-color: #94a3b8;
+  opacity: 0.6;
 }
 
 /* profile form and logo */
 .form-c {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: .6rem;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex-grow: 1;
 }
 
 .li-c {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .form-label {
-    font-weight: 600;
-    font-size: 14px;
-    color: black;
-    opacity: .8;
-    text-align: right;
-    width: 90px;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  opacity: 0.8;
+  text-align: right;
+  width: 90px;
 }
 
 .form-input {
-    width: 100%;
-    max-width: 70%;
-    height: 2.5rem;
-    border: 2px;
-    border-color: #CBD5E1;
-    border-radius: 5px;
-    background-color: #F4F7FC;
-    outline: 0;
-    padding: 0 1rem;
+  width: 100%;
+  max-width: 70%;
+  height: 2.5rem;
+  border: 2px;
+  border-color: #cbd5e1;
+  border-radius: 5px;
+  background-color: #f4f7fc;
+  outline: 0;
+  padding: 0 1rem;
 }
 
 .aog-c {
-    width: 15%;
-    flex-grow: .2;
+  width: 15%;
+  flex-grow: 0.2;
 }
 
 .aog-i {
-    width: 210px; 
+  width: 210px;
 }
 
 .px {
-    padding: 0 1em;
+  padding: 0 1em;
 }
 
-#dob::placeholder, #dob::-moz-placeholder, #dob::-webkit-input-placeholder {
-    color: gray;
+#dob::placeholder,
+#dob::-moz-placeholder,
+#dob::-webkit-input-placeholder {
+  color: gray;
 }
 
 /* Referred link */
 .rls-c {
-    display: flex;
-    gap: 1rem;
-
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 18px;
 }
 
 .rl-c {
-    text-align: center;
-    width: 70%;
-    flex-grow: 1;
-    flex-shrink: 0;
+  text-align: center;
+  width: 70%;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .r-h2 {
-    color: #8D9AAD;
-    margin-top: 1rem;
+  color: #8d9aad;
+  margin-top: 1rem;
 }
 
 .link-c {
-    display: flex;
-    border-radius: .5rem;
-    overflow: hidden;
-    margin-top: .5rem;
-    width: 100%;
+  display: flex;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  width: 100%;
 }
 
 .link {
-    width: 100%;
-    background-color: #F4F7FC;
-    display: flex;
-    align-items: center;
-    padding: .7em;
-    justify-content: center;
-    color: #3184F9;
-    border: 1px solid #8D9AAD;
-    border-right: 0;
-    border-top-left-radius: .5em;
-    border-bottom-left-radius: .5em;
-    word-wrap: break-word;
+  width: 100%;
+  background-color: #f4f7fc;
+  display: flex;
+  align-items: center;
+  padding: 0.7em;
+  justify-content: center;
+  color: #3184f9;
+  border: 1px solid #8d9aad;
+  border-right: 0;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  word-wrap: break-word;
 }
 
 #link-logo-c {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1em;
-    border: 1px solid #8D9AAD;
-    border-top-right-radius: .5em;
-    border-bottom-right-radius: .5em;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em;
+  border: 1px solid #8d9aad;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  cursor: pointer;
 }
 
 .s-c {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sv {
-    font-weight: 500;
-    margin-bottom: .5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 .social-c {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .w-c {
-    width: 28px;
-    height: 28px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #whatsapp-logo {
-    width: 28px;
-    height: 28px;
+  width: 28px;
+  height: 28px;
 }
 
 #link-logo-c img {
-    display: block;
+  display: block;
 }
 
 #link-logo-c img#cl {
-    width: 24px;
-    display: none;
+  width: 24px;
+  display: none;
 }
 
-@media  (max-width: 768px) {
-    .form-c {
-        flex-direction: column-reverse;
-        gap: 1rem;
-    }
-    .form-label {
-        font-size: 12px;
-        width: 60px;
-    }
-    .form-input {
-        width: 100%;
-    }
-    form {
-        width: 100%;
-    }
-    .ph {
-        font-size: 16px;
-    } 
-    .px {
-        padding: 0 1em;
-    }
+@media (max-width: 768px) {
+  .form-c {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .form-label {
+    font-size: 12px;
+    width: 60px;
+  }
+  .form-input {
+    width: 100%;
+  }
+  form {
+    width: 100%;
+  }
+  .ph {
+    font-size: 16px;
+  }
+  .px {
+    padding: 0 1em;
+  }
 
-    .aog-c {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .aog-i {
-        width: 170px;
-    }
-    .rls-c {
-        flex-direction: column;
-        gap: 3rem;
-    }
-    .rl-c {
-        width: 100%;
-    }
+  .aog-c {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .aog-i {
+    width: 170px;
+  }
+  .rls-c {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .rl-c {
+    width: 100%;
+  }
+}
+
+/* Donlowad Certificate section */
+
+.certificate-image-div {
+  width: 98%;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.certificate-main-div {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.certificate-main-div > p {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.certificate-main-div img {
+  width: 95%;
+}
+.certificate-main-div button {
+  padding: 0.6rem 1rem;
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.certificate-input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.certificate-input-container > input {
+  padding: 10px;
+  transform: scale(1.3);
+}
+.certificate-input-container > label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #8d9aad;
 }
