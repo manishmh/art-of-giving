@@ -228,6 +228,10 @@ form {
     width: 100%;
   }
 }
+.ci {
+  max-width: 320px;
+  padding: 5px;
+}
 
 .certificate-image-div iframe {
   height: 100%;
